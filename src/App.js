@@ -1,11 +1,13 @@
 import React, { Component } from "react";
 import "./App.css";
+import { Image } from "semantic-ui-react";
+import image from "./photos/top-photo.jpg";
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <div className="top-photo">LC MAKES STUFF</div>
+        <Image src={image} fluid />
       </div>
     );
   }
