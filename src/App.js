@@ -1,13 +1,12 @@
 import React, { Component } from "react";
 import "./App.css";
-import { Image } from "semantic-ui-react";
-import image from "./photos/top-photo.jpg";
+import BannerImage from "./Components/PageDividers/BannerImage";
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <Image src={image} fluid />
+        <BannerImage />
       </div>
     );
   }
