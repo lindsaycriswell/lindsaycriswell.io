@@ -1,9 +1,19 @@
+body {
+  display: block;
+  margin: 0px;
+}
+
 .App {
   text-align: center;
   background-color: navy;
   color: white;
 }
 
+.page-divider {
+  display: block;
+  width: 100%;
+  height: auto;
+}
 /*.App-logo {
   animation: App-logo-spin infinite 20s linear;
   height: 80px;
