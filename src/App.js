@@ -7,6 +7,7 @@ class App extends Component {
     return (
       <div className="App">
         <BannerImage />
+        <h1>WORK</h1>
       </div>
     );
   }
