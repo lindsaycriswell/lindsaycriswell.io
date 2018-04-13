@@ -7,7 +7,12 @@ class App extends Component {
     return (
       <div className="App">
         <BannerImage />
-        <h1>WORK</h1>
+        <h1>Portfolio Divider</h1>
+        <h1>Portfolio</h1>
+        <h1>Resume Divider</h1>
+        <h1>Resume</h1>
+        <h1>Contacts Divider</h1>
+        <h1>Contacts</h1>
       </div>
     );
   }
