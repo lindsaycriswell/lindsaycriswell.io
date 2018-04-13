@@ -5,27 +5,13 @@ body {
 
 .App {
   text-align: center;
-  /*background-color: navy;
-  color: white;*/
 }
 
-#topImage {
-  background-image: url("./Components/photos/top-photo.jpg");
-  height: 125vh;
-  width: 125vw;
-  background-repeat: no-repeat;
-  background-size: contain;
-}
-/*
-#LCheader {
-  color: rgb(255, 231, 174);
-  font-size: 500%;
-}*/
-/*.page-divider {
-  display: block;
-  width: auto;
+.responsive {
+  width: 100%;
   height: auto;
-}*/
+}
+
 /*.App-logo {
   animation: App-logo-spin infinite 20s linear;
   height: 80px;
