@@ -1,7 +1,8 @@
 import React from "react";
+import image from "./../photos/top-photo.jpg";
 
 const BannerImage = () => {
-  return <div id="topImage" />;
+  return <img src={image} alt="Lindsay Criswell" className="responsive" />;
 };
 
 export default BannerImage;
