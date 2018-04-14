@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import "./App.css";
 import BannerImage from "./Components/PageDividers/BannerImage";
+import PortfolioDivider from "./Components/PageDividers/PortfolioDivider";
+import ResumeDivider from "./Components/PageDividers/ResumeDivider";
 import "semantic-ui-css/semantic.min.css";
 
 class App extends Component {
@@ -8,9 +10,10 @@ class App extends Component {
     return (
       <div className="App">
         <BannerImage />
-        <h1>Portfolio Divider</h1>
+        <PortfolioDivider />
         <h1>Portfolio</h1>
-        <h1>Resume Divider</h1>
+        <ResumeDivider />
+        // FINISH DEFINING FILE STRUCTURE
         <h1>Resume</h1>
         <h1>Contacts Divider</h1>
         <h1>Contacts</h1>
