@@ -14,6 +14,13 @@ body {
   height: auto;
 }
 
+.top-right {
+  position: absolute;
+  top: 4%;
+  right: 2%;
+  color: rgb(255, 221, 164);
+}
+
 /*.App-logo {
   animation: App-logo-spin infinite 20s linear;
   height: 80px;
