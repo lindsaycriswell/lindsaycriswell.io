@@ -6,7 +6,9 @@ const BannerImage = () => {
   return (
     <div>
       <img src={image} alt="Lindsay Criswell" className="responsive" />
-      <Icon name="sidebar" size="huge" />
+      <div className="top-right">
+        <Icon name="options" size="big" />
+      </div>
     </div>
   );
 };
