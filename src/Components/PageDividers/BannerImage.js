@@ -7,14 +7,10 @@ const BannerImage = () => {
     <div>
       <img src={image} alt="Lindsay Criswell" className="responsive" />
       <div className="top-right">
-        <Icon name="options" size="big" />
+        <Icon name="sidebar" size="big" />
       </div>
     </div>
   );
 };
 
 export default BannerImage;
-
-// <button>
-//   <Icon name="home" size="massive" />
-// </button>
