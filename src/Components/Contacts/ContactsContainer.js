@@ -2,7 +2,7 @@ import React from "react";
 
 const ContactsContainer = () => {
   return (
-    <div>
+    <div id="contact">
       <h1>Contacts Container</h1>
     </div>
   );
