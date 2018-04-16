@@ -22,12 +22,7 @@ class BannerImage extends React.Component {
         ) : null}
         <img src={image} alt="Lindsay Criswell" className="responsive" />
         {this.state.activeMenu ? (
-          <Icon
-            className="top-right"
-            name="close"
-            size="big"
-            onClick={this.toggleMenu}
-          />
+          <Icon className="top-right" name="close" onClick={this.toggleMenu} />
         ) : (
           <Icon
             className="top-right"
