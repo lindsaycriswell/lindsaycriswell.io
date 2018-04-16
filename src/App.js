@@ -15,6 +15,9 @@ class App extends Component {
     return (
       <div className="App">
         <BannerImage />
+        {
+          // insert arrows with a tags to different sections
+        }
         <AboutMe />
         <PortfolioDivider />
         <PortfolioContainer />
@@ -28,10 +31,3 @@ class App extends Component {
 }
 
 export default App;
-
-// <div style={{ height: "2000px" }}>
-//   <a href="#click">LC MAKES STUFF</a>
-// </div>
-// <div id="click" style={{ height: "2000px" }}>
-//   DID THIS WORK?
-// </div>
