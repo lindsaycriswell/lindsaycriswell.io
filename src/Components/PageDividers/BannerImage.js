@@ -1,7 +1,7 @@
 import React from "react";
 import image from "./../photos/top-photo.jpg";
 import { Icon } from "semantic-ui-react";
-import PageMenu from "../../PageMenu.js";
+import MenuList from "../Menu/MenuList.js";
 
 class BannerImage extends React.Component {
   state = {
@@ -17,7 +17,9 @@ class BannerImage extends React.Component {
   render() {
     return (
       <div>
-        {this.state.activeMenu ? <PageMenu /> : null}
+        {this.state.activeMenu ? (
+          <MenuList toggleMenu={this.toggleMenu} />
+        ) : null}
         <img src={image} alt="Lindsay Criswell" className="responsive" />
         {this.state.activeMenu ? (
           <Icon
