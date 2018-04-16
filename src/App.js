@@ -3,6 +3,10 @@ import "./App.css";
 import BannerImage from "./Components/PageDividers/BannerImage";
 import PortfolioDivider from "./Components/PageDividers/PortfolioDivider";
 import ResumeDivider from "./Components/PageDividers/ResumeDivider";
+import ContactsDivider from "./Components/PageDividers/ContactsDivider";
+import PortfolioContainer from "./Components/Portfolio/PortfolioContainer";
+import ResumeContainer from "./Components/Resume/ResumeContainer";
+import ContactsContainer from "./Components/Contacts/ContactsContainer";
 import "semantic-ui-css/semantic.min.css";
 
 class App extends Component {
@@ -11,12 +15,11 @@ class App extends Component {
       <div className="App">
         <BannerImage />
         <PortfolioDivider />
-        <h1>Portfolio</h1>
+        <PortfolioContainer />
         <ResumeDivider />
-        // FINISH DEFINING FILE STRUCTURE
-        <h1>Resume</h1>
-        <h1>Contacts Divider</h1>
-        <h1>Contacts</h1>
+        <ResumeContainer />
+        <ContactsDivider />
+        <ContactsContainer />
       </div>
     );
   }
