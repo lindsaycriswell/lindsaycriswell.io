@@ -1,11 +1,11 @@
 import React from "react";
 
-const ResumeContainer = () => {
+const ContactsContainer = () => {
   return (
     <div>
-      <h1>Resume Container</h1>
+      <h1>Contacts Container</h1>
     </div>
   );
 };
 
-export default ResumeContainer;
+export default ContactsContainer;
