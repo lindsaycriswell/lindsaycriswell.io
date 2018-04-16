@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import "./App.css";
 import BannerImage from "./Components/PageDividers/BannerImage";
+import AboutMe from "./AboutMe.js";
 import PortfolioDivider from "./Components/PageDividers/PortfolioDivider";
 import ResumeDivider from "./Components/PageDividers/ResumeDivider";
 import ContactsDivider from "./Components/PageDividers/ContactsDivider";
@@ -14,6 +15,7 @@ class App extends Component {
     return (
       <div className="App">
         <BannerImage />
+        <AboutMe />
         <PortfolioDivider />
         <PortfolioContainer />
         <ResumeDivider />
