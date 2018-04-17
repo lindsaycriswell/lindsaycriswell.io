@@ -1,7 +1,7 @@
 body {
   display: block;
   margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Helvetica-Neue, sans-serif;
 }
 
 .App {
@@ -15,11 +15,26 @@ body {
   height: auto;
 }
 
-.top-right {
+.top-right-yellow {
   position: absolute;
   top: 4%;
   right: 2%;
   color: rgb(255, 221, 164);
+}
+
+.top-right-white {
+  position: absolute;
+  top: 4%;
+  right: 2%;
+  color: white;
+}
+
+.section-div {
+  margin: 3%;
+}
+
+.margin-top {
+  margin-top: 1%;
 }
 
 /*.App-logo {
