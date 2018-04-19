@@ -1,11 +1,8 @@
 import React from "react";
+import image from "./../photos/sunset.jpg";
 
 const ContactsDivider = () => {
-  return (
-    <div>
-      <h1>Contacts Divider</h1>
-    </div>
-  );
+  return <img src={image} alt="Portfolio" className="responsive" />;
 };
 
 export default ContactsDivider;
