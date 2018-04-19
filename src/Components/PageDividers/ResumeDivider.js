@@ -1,11 +1,8 @@
 import React from "react";
+import image from "./../photos/curry.jpg";
 
 const ResumeDivider = () => {
-  return (
-    <div>
-      <h1>Resume Divider</h1>
-    </div>
-  );
+  return <img src={image} alt="Portfolio" className="responsive" />;
 };
 
 export default ResumeDivider;
