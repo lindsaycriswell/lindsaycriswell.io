@@ -21,19 +21,30 @@ class BannerImage extends React.Component {
           <MenuList toggleMenu={this.toggleMenu} />
         ) : null}
         <img src={image} alt="Lindsay Criswell" className="responsive" />
-        {this.state.activeMenu ? (
+        <a href="#about-me">
           <Icon
-            className="top-right-white"
-            name="close"
-            onClick={this.toggleMenu}
-          />
-        ) : (
-          <Icon
-            className="top-right-yellow"
-            name="sidebar"
+            className="yellowish bottom-middle"
+            name="chevron circle down"
             size="big"
-            onClick={this.toggleMenu}
           />
+        </a>
+        {this.state.activeMenu ? (
+          <div>
+            <Icon
+              className="top-right white"
+              name="close"
+              onClick={this.toggleMenu}
+            />
+          </div>
+        ) : (
+          <div>
+            <Icon
+              className="top-right yellowish"
+              name="sidebar"
+              size="big"
+              onClick={this.toggleMenu}
+            />
+          </div>
         )}
       </div>
     );
