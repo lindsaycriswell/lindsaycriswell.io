@@ -1,6 +1,5 @@
 import React from "react";
 import image from "./../photos/top-photo.jpg";
-import { Icon } from "semantic-ui-react";
 import MenuList from "../Menu/MenuList.js";
 
 class BannerImage extends React.Component {
@@ -22,26 +21,19 @@ class BannerImage extends React.Component {
         ) : null}
         <img src={image} alt="Lindsay Criswell" className="responsive" />
         <a href="#about-me">
-          <Icon
-            className="yellowish bottom-middle"
-            name="chevron circle down"
-            size="big"
-          />
+          <i className="chevron circle down big icon yellowish bottom-middle" />
         </a>
         {this.state.activeMenu ? (
           <div>
-            <Icon
-              className="top-right white"
-              name="close"
+            <i
+              className="close icon top-right white"
               onClick={this.toggleMenu}
             />
           </div>
         ) : (
           <div>
-            <Icon
-              className="top-right yellowish"
-              name="sidebar"
-              size="big"
+            <i
+              className="sidebar big icon top-right yellowish"
               onClick={this.toggleMenu}
             />
           </div>
@@ -52,3 +44,5 @@ class BannerImage extends React.Component {
 }
 
 export default BannerImage;
+
+// Photo font: Arial Unicode MS, 150pt

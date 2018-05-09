@@ -1,11 +1,10 @@
 import React from "react";
-import { Icon } from "semantic-ui-react";
 
 const AboutMe = () => {
   return (
     <div id="about-me" className="section-div">
       <h3>ABOUT ME</h3>
-      <Icon name="anchor" />
+      <i className="anchor icon" />
       <p className="margin-top">
         I am a full stack web developer dedicated to creating innovative web
         experiences that help users engage with their passions.

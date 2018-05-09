@@ -34,6 +34,10 @@ body {
   color: rgb(255, 221, 164);
 }
 
+.whitish {
+  color: rgb(255, 248, 194);
+}
+
 .section-div {
   margin: 3%;
 }
