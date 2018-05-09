@@ -38,6 +38,10 @@ body {
   color: rgb(255, 248, 194);
 }
 
+.pinkish {
+  color: rgb(224, 159, 144);
+}
+
 .section-div {
   margin: 3%;
 }

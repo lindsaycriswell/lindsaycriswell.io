@@ -11,6 +11,8 @@ import ContactsContainer from "./Components/Contacts/ContactsContainer";
 import "semantic-ui-css/semantic.min.css";
 
 class App extends Component {
+  // Change Dividers to Divider component with props - image name, color
+  // Rethink menu items?
   render() {
     return (
       <div className="App">
