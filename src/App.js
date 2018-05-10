@@ -2,9 +2,7 @@ import React, { Component } from "react";
 import "./App.css";
 import BannerImage from "./Components/PageDividers/BannerImage";
 import AboutMe from "./AboutMe.js";
-import PortfolioDivider from "./Components/PageDividers/PortfolioDivider";
-import ResumeDivider from "./Components/PageDividers/ResumeDivider";
-import ContactsDivider from "./Components/PageDividers/ContactsDivider";
+import PageDivider from "./Components/PageDivider";
 import PortfolioContainer from "./Components/Portfolio/PortfolioContainer";
 import ResumeContainer from "./Components/Resume/ResumeContainer";
 import ContactsContainer from "./Components/Contacts/ContactsContainer";
@@ -21,11 +19,15 @@ class App extends Component {
           // insert arrows with a tags to different sections
         }
         <AboutMe />
-        <PortfolioDivider />
+        <PageDivider
+          section={"portfolio"}
+          alt={"Portfolio"}
+          color={"whitish"}
+        />
         <PortfolioContainer />
-        <ResumeDivider />
+        <PageDivider section={"resume"} alt={"Resume"} color={"pinkish"} />
         <ResumeContainer />
-        <ContactsDivider />
+        <PageDivider section={"contacts"} alt={"Contacts"} color={"tealish"} />
         <ContactsContainer />
       </div>
     );

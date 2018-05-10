@@ -1,6 +1,6 @@
 import React from "react";
 import image from "./../photos/top-photo.jpg";
-import MenuList from "../Menu/MenuList.js";
+import MenuList from "../MenuList.js";
 
 class BannerImage extends React.Component {
   state = {
