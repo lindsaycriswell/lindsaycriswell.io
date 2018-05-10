@@ -1,6 +1,7 @@
 import React from "react";
-import image from "./../photos/top-photo.jpg";
-import MenuList from "../MenuList.js";
+import PageDivider from "./PageDivider";
+// import image from "./photos/top-photo.jpg";
+import MenuList from "./MenuList.js";
 
 class BannerImage extends React.Component {
   state = {
@@ -15,14 +16,16 @@ class BannerImage extends React.Component {
 
   render() {
     return (
-      <div>
+      <div id="top">
         {this.state.activeMenu ? (
           <MenuList toggleMenu={this.toggleMenu} />
         ) : null}
-        <img src={image} alt="Lindsay Criswell" className="responsive" />
-        <a href="#about-me">
-          <i className="chevron circle down big icon yellowish bottom-middle" />
-        </a>
+        <PageDivider
+          section={"about-me"}
+          alt={"Lindsay Criswell"}
+          color={"yellowish"}
+        />
+
         {this.state.activeMenu ? (
           <div>
             <i

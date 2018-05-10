@@ -22,5 +22,3 @@ class PageDivider extends React.Component {
 }
 
 export default PageDivider;
-
-// {"./photos/" + this.props.section + ".jpg"}

@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "./App.css";
-import BannerImage from "./Components/PageDividers/BannerImage";
+import BannerImage from "./Components/BannerImage";
 import AboutMe from "./AboutMe.js";
 import PageDivider from "./Components/PageDivider";
 import PortfolioContainer from "./Components/Portfolio/PortfolioContainer";
@@ -15,9 +15,6 @@ class App extends Component {
     return (
       <div className="App">
         <BannerImage />
-        {
-          // insert arrows with a tags to different sections
-        }
         <AboutMe />
         <PageDivider
           section={"portfolio"}
@@ -27,8 +24,11 @@ class App extends Component {
         <PortfolioContainer />
         <PageDivider section={"resume"} alt={"Resume"} color={"pinkish"} />
         <ResumeContainer />
-        <PageDivider section={"contacts"} alt={"Contacts"} color={"tealish"} />
+        <PageDivider section={"contact"} alt={"Contact"} color={"tealish"} />
         <ContactsContainer />
+        <a href={"#top"}>
+          <i className={"chevron circle up big icon tealish"} />
+        </a>
       </div>
     );
   }
