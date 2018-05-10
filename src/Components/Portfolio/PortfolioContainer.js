@@ -9,3 +9,6 @@ const PortfolioContainer = () => {
 };
 
 export default PortfolioContainer;
+
+// onMouseEnter={this.hoverOn}
+// onMouseLeave={this.hoverOff}
