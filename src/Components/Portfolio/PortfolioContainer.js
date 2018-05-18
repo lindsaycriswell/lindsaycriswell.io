@@ -1,5 +1,7 @@
 import React from "react";
 import portfolioData from "./PortfolioData";
+import PortfolioImage from "./PortfolioImage";
+import PortfolioDescription from "./PortfolioDescription";
 
 class PortfolioContainer extends React.Component {
   state = {
@@ -7,10 +9,10 @@ class PortfolioContainer extends React.Component {
   };
 
   render() {
-    console.log(portfolioData[this.state.index]);
     return (
       <div id="portfolio">
-        <h1>Portfolio Container</h1>
+        <PortfolioImage project={portfolioData[this.state.index]} />
+        <PortfolioDescription project={portfolioData[this.state.index]} />
       </div>
     );
   }

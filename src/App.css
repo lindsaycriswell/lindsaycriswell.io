@@ -47,28 +47,15 @@ body {
 }
 
 .section-div {
-  margin: 3%;
+  margin: 2% 15% 4% 15%;
 }
 
 .margin-top {
   margin-top: 1%;
 }
 
-#about-me {
-  margin-left: 15%;
-  margin-right: 15%;
+.portfolio-image {
+  margin-top: 4%;
+  width: 50%;
+  height: auto;
 }
-
-/*.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}*/

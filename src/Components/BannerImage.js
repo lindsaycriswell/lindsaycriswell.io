@@ -1,6 +1,5 @@
 import React from "react";
 import PageDivider from "./PageDivider";
-// import image from "./photos/top-photo.jpg";
 import MenuList from "./MenuList.js";
 
 class BannerImage extends React.Component {

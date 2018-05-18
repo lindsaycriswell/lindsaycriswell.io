@@ -2,7 +2,7 @@ import React from "react";
 
 const AboutMe = () => {
   return (
-    <div id="about-me" className="section-div">
+    <div className="section-div">
       <h3>ABOUT ME</h3>
       <i className="anchor icon" />
       <p className="margin-top">
