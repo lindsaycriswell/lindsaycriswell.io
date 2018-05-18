@@ -17,8 +17,7 @@ const AboutMe = () => {
       <p>
         In my free time you can find me planning/daydreaming about traveling the
         world, concocting something delicious in the kitchen, knitting blankets
-        modelled on abstract art, or making up drinking games to play watching
-        Jeopardy!
+        modelled on abstract art, or watching Jeopardy! with a pint of dank IPA.
       </p>
     </div>
   );

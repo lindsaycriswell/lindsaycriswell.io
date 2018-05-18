@@ -54,6 +54,11 @@ body {
   margin-top: 1%;
 }
 
+#about-me {
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
 /*.App-logo {
   animation: App-logo-spin infinite 20s linear;
   height: 80px;

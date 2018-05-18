@@ -5,7 +5,7 @@ class PageDivider extends React.Component {
     return (
       <div>
         <img
-          src={"./photos/" + this.props.section + ".jpg"}
+          src={"./photos/DividerPhotos/" + this.props.section + ".jpg"}
           alt={this.props.alt}
           className="responsive"
         />
