@@ -1,7 +1,7 @@
 let ResumeData = {
   header: "Lindsay Criswell",
   contacts: [
-    { contact: "415-269-7648" },
+    { contact: "415-269-7648", link: "tel:4152697648" },
     {
       contact: "lindsaycriswell@gmail.com",
       link: "mailto:lindsaycriswell@gmail.com"

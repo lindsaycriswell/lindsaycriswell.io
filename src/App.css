@@ -59,3 +59,8 @@ body {
   width: 50%;
   height: auto;
 }
+
+.left-aligned {
+  text-align: left;
+  margin-top: 2%;
+}
