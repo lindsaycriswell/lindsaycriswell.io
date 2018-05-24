@@ -9,11 +9,3 @@ const ResumeContact = ({ contact: { contact, link } }) => {
 };
 
 export default ResumeContact;
-
-// {contacts.forEach(contact => {
-//   contact.link ? (
-//     <a href={contact.link} alt={contact.contact}>
-//       {contact.contact}
-//     </a>
-//   ) : null;
-// })}

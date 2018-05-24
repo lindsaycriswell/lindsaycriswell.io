@@ -11,7 +11,7 @@ const PortfolioImage = ({ project, handleArrowClick }) => {
       <div>
         <i
           onClick={event => handleArrowClick(-1)}
-          className={"chevron circle left big icon middle-chevron"}
+          className={"chevron circle left big icon"}
         />
         <i
           onClick={event => handleArrowClick(1)}
