@@ -6,7 +6,7 @@ let portfolioData = [
     description:
       "A cooking time management app with timed recipe instructions to complete multiple dishes simultaneously.",
     tech:
-      "Ruby on Rails back end, JavaScript/React front end, incorporating a customized recipe API and JavaScript date object algorithms.",
+      "Ruby on Rails back end, JavaScript/React front end, incorporating a customized recipe API and JavaScript Date object algorithms.",
     github: "https://github.com/lindsaycriswell/kitchen-sync-frontend",
     demo: "https://youtu.be/l_ZTE3p2yXQ"
   },
