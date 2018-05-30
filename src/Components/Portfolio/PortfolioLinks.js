@@ -1,8 +1,6 @@
 import React from "react";
 
 const PortfolioLinks = ({ project: { github, demo } }) => {
-  console.log(github);
-  console.log(demo);
   return (
     <div>
       <div className={"section-div"}>

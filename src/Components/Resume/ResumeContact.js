@@ -1,9 +1,9 @@
 import React from "react";
 
-const ResumeContact = ({ contact: { contact, link } }) => {
+const ResumeContact = ({ contact: { title, link } }) => {
   return (
-    <a href={link} alt={contact} target="blank" style={{ display: "inline" }}>
-      | {contact}{" "}
+    <a href={link} alt={title} target="blank" style={{ display: "inline" }}>
+      | {title}{" "}
     </a>
   );
 };

@@ -1,48 +1,23 @@
 let ResumeData = {
   header: "Lindsay Criswell",
   contacts: [
-    { contact: "415-269-7648", link: "tel:4152697648" },
+    { title: "415-269-7648", link: "tel:4152697648" },
     {
-      contact: "lindsaycriswell@gmail.com",
+      title: "lindsaycriswell@gmail.com",
       link: "mailto:lindsaycriswell@gmail.com"
     },
     {
-      contact: "GitHub",
+      title: "GitHub",
       link: "https://github.com/lindsaycriswell"
     },
     {
-      contact: "Blog",
+      title: "Blog",
       link: "https://medium.com/@lcriswell"
     }
   ],
   summary:
     "Full stack web developer dedicated to creating innovative web experiences that help users engage with their passions. With experience in JavaScript, React, and Ruby on Rails, and a background in non-profit marketing and fundraising, I bring strong project management, client engagement, and communication skills that help socially-conscious companies achieve their missions. Trivia, travel, and knitting enthusiast.",
   technicalProjects: [
-    {
-      title: "Kitchen Sync",
-      links: [
-        {
-          title: "GitHub (front end)",
-          link: "https://github.com/lindsaycriswell/kitchen-sync-frontend"
-        },
-        {
-          title: "GitHub (back end)",
-          link: "https://github.com/lindsaycriswell/kitchen-sync-backend"
-        },
-        {
-          title: "Demo",
-          link: "https://youtu.be/l_ZTE3p2yXQ"
-        }
-      ],
-      description:
-        "A cooking time management app with timed recipe instructions to complete multiple dishes simultaneously",
-      features: [
-        "Developed front end utilizing JavaScript, React, and Semantic UI.",
-        "Employed Redux to streamline state management for efficient access to data.",
-        "Created algorithms to operate on JavaScript’s Date object to ensure chronological display of timed recipe directions.",
-        "Scraped Yummly cooking website to develop a custom recipe API to seed the database."
-      ]
-    },
     {
       title: "Kitchen Sync",
       links: [

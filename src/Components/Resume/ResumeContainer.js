@@ -1,6 +1,7 @@
 import React from "react";
 import resumeData from "./ResumeData";
 import ResumeContact from "./ResumeContact";
+import ResumeProject from "./ResumeProject";
 
 const ResumeContainer = () => {
   return (
@@ -10,7 +11,13 @@ const ResumeContainer = () => {
         <ResumeContact contact={contact} key={index} />
       ))}{" "}
       |
-      <p className="left-aligned">{resumeData.summary}</p>
+      <div className="left-aligned">
+        <p>{resumeData.summary}</p>
+        <h3>TECHNICAL PROJECTS</h3>
+        {resumeData.technicalProjects.map((project, index) => (
+          <ResumeProject project={project} key={index} />
+        ))}
+      </div>
     </div>
   );
 };
