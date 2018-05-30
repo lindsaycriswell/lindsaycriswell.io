@@ -3,6 +3,7 @@ import resumeData from "./ResumeData";
 import ResumeContact from "./ResumeContact";
 import ResumeProject from "./ResumeProject";
 import ResumeJob from "./ResumeJob";
+import ResumeSchool from "./ResumeSchool";
 
 const ResumeContainer = () => {
   return (
@@ -23,6 +24,10 @@ const ResumeContainer = () => {
         <h3>EMPLOYMENT HISTORY</h3>
         {resumeData.employment.map((job, index) => (
           <ResumeJob job={job} key={index} />
+        ))}
+        <h3>EDUCATION</h3>
+        {resumeData.education.map((school, index) => (
+          <ResumeSchool school={school} key={index} />
         ))}
       </div>
     </div>
