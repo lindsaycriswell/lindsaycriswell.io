@@ -1,12 +1,14 @@
 import React from "react";
 
-const PortfolioDescription = ({ project }) => {
+const PortfolioDescription = ({
+  project: { title, icon, description, tech }
+}) => {
   return (
     <div>
-      <h3>{project.title.toUpperCase()}</h3>
-      <i className={project.icon + " icon"} />
-      <p className="margin-top">{project.description}</p>
-      <p>{project.tech}</p>
+      <h3>{title.toUpperCase()}</h3>
+      <i className={icon + " icon"} />
+      <p className="margin-top">{description}</p>
+      <p>{tech}</p>
     </div>
   );
 };

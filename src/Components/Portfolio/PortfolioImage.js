@@ -1,11 +1,11 @@
 import React from "react";
 
-const PortfolioImage = ({ project, handleArrowClick }) => {
+const PortfolioImage = ({ project: { tag }, handleArrowClick }) => {
   return (
     <div>
       <img
-        src={"./photos/PortfolioPhotos/" + project.tag + ".jpg"}
-        alt={project.tag}
+        src={"./photos/PortfolioPhotos/" + tag + ".jpg"}
+        alt={tag}
         className="portfolio-image"
       />
       <div>

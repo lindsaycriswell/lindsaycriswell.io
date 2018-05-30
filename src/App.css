@@ -30,6 +30,10 @@ body {
   color: white;
 }
 
+.grayish {
+  color: #696969;
+}
+
 .yellowish {
   color: rgb(255, 221, 164);
 }
