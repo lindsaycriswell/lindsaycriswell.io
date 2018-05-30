@@ -30,6 +30,13 @@ const ResumeContainer = () => {
           <ResumeSchool school={school} key={index} />
         ))}
       </div>
+      <a
+        href="https://docs.google.com/presentation/d/e/2PACX-1vTGUh0p6whOLGpVDiegxEqZcjJyUW_C647awMBCRdE6Syzh_-MgVGETs_dQsAkpWmyz4Db4gMCjwE_T/pub?start=false&loop=false&delayms=3000"
+        target="blank"
+      >
+        <i className="print icon large" />
+        <p>Printer Friendly</p>
+      </a>
     </div>
   );
 };
